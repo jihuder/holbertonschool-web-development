@@ -1,5 +1,7 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 #imgPrincipal {
@@ -32,10 +34,6 @@ body {
 #nav2 ul li a {
     text-decoration: none;
     color: #fff;
-}
-
-#morado {
-    background-color: #C271FF;
 }
 
 #get-schooled-section {
@@ -112,4 +110,50 @@ body {
     color: white;
     line-height: 1.2em;
     text-align: center;
+}
+
+#seccion-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #C271FF;
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px;
+}
+
+#seccion-2 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 60px;
+    margin-left: 5px;
+    color: white;
+}
+
+#seccion-2 img {
+    max-width: 60%;
+    margin-right: 20px;
+}
+
+#contenedor-cita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin-left: 20px;
+}
+
+#cita-2 p {
+    margin: 0;
+    color: white;
+}
+
+#nombre p {
+    margin: 0;
+    color: white;
 }
