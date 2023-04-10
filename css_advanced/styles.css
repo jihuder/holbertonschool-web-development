@@ -209,7 +209,7 @@ body {
     text-align: center;
     font-size: 40px;
     padding: 40px;
-    color:white;
+    color: white;
 }
 
 #centrado-sesion4 {
@@ -220,14 +220,16 @@ body {
     margin-left: 60px;
 
 }
-#centrado-sesion4 > div h2{
+
+#centrado-sesion4>div h2 {
     font-size: 16px;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#centrado-sesion4 > div img{
+
+#centrado-sesion4>div img {
     display: block;
     margin: 0 auto;
     padding-top: 40px;
@@ -236,10 +238,11 @@ body {
 
 }
 
-#centrado-sesion4 > div p{
+#centrado-sesion4>div p {
     color: white;
 }
-#sesion-4 button{
+
+#sesion-4 button {
     display: block;
     margin: 100px auto 0;
     font-size: 15px;
@@ -250,32 +253,62 @@ body {
 
 }
 
-#seccio-5{
-    background-color: white; 
+#seccio-5 {
+    background-color: white;
 }
+
 #seccion-5 h1 {
     text-align: center;
     font-size: 70px;
     padding: 40px;
 }
-.bloques-filas{
+
+.bloques-filas {
     display: flex;
     flex-direction: row;
     margin-right: 90;
     justify-content: space-between;
     margin-left: 60px;
 }
-.bloque-fila-1 p{
+
+.bloque-fila-1 p {
     text-align: justify;
     max-width: 500px;
     margin-left: 80px;
 }
 
-.bloque-fila-2{
+.bloque-fila-2 {
     text-align: justify;
     max-width: 500px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
-.articulo h2{
-    text-align-last:center
+
+.articulo h2 {
+    text-align-last: center
+}
+
+.contenedor-sesion6 {
+    background-color: #071629;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.bloque-global {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-left: 100px;
+    
+}
+
+
+.bloque-redes li {
+    justify-content: space-between;
+    display: inline-block;
+    margin-right: 20px;
 }
